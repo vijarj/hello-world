@@ -106,33 +106,6 @@ alias cdscripts 'cd /proj/gpfs/vjsk/myscripts'
 setenv LS_COLORS "di=34:fi=00"
 
 
-#IP Workarea Aliases
-# S8 Std Cell
-setenv s8ls_path /disks/iptg/WS/iptguser_scs8lsa_dev_159/scs8lsa
-setenv s8ls_path_syn /disks/iptg/WS/iptguser_scs8lsa_dev_159/scs8lsa/syn/001-59001/scs8ls/models.3.1/PVT/
-setenv s8hv_path /disks/iptg/WS/iptguser_scs8hvla_dev_645/scs8hvla
-setenv s8ms_path /disks/iptg/WS/iptguser_scs8msa_dev_798/scs8msa
-setenv s8hd_path /disks/iptg/WS/iptguser_scs8hd_dev_1217/scs8hd
-# S65
-setenv s55mv_path /disks/iptg/3PIP_55LP/ARM/iptguser_scl55mv_dev_3082/scl55mv
-setenv s65mv_path /disks/iptg/WS/iptguser_scl65mv_dev_1156/scl65mv
-setenv s65ht_path /disks/iptg/WS/iptguser_scl65ht_dev_147/scl65ht
-setenv s65rt_path /disks/iptg/WS/iptguser_scl65rt_dev_148/scl65rt
-# S40
-setenv s40hv_path /disks/iptg/3PIP_40LP/iptguser_scl40hv_dev_3519/scl40hv
-setenv s40lv_path /disks/iptg/WS/iptguser_scl40_dev_3417/scl40/
-setenv s40tk_path /disks/iptg/3PIP_40LP/iptguser_s40tk_dev_3780/s40tk
-setenv s40sram_path /disks/iptg/3PIP_40LP/iptguser_s40sram_dev_3484/s40sram
-setenv s40srom_path /disks/iptg/3PIP_40LP/iptguser_s40srom_dev_3485/s40srom
-setenv s40ehv_path /disks/iptg/3PIP_40LP/iptguser_scs40ehv_dev_4611/scs40ehv
-# S55
-setenv s55_path /disks/iptg/3PIP_55LP/ARM/iptguser_scl55_dev_2982/scl55
-# Other
-setenv fr130_path /disks/iptg/WS/iptguser_scfr130_dev_2267
-#F45
-setenv scf45hv_path /proj/gpfs/vjsk/IP/vjsk_scf45hv_dev_42
-setenv scf45mv_path /proj/gpfs/vjsk/IP/vjsk_scf45mv_dev_41
-setenv scf45rt_path /proj/gpfs/vjsk/IP/vjsk_scf45rt_dev_43
 #mail
 alias mail 'echo "" | mutt -a '
 #chmod permissions
